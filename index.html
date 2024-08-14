@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+        <script type="text/javascript" src="{{ url_for('static',filename='css/script/script.js') }}">
+            alert("the page has reloaded")
+        </script>
+    </head>
+    <body>
+
+        <h1>
+
+            Trying first time html and flask through this project
+            html forms
+
+
+
+
+        </h1>
+        <form action = "/submit" method="post">
+            <label for = "science">Science:</label><br>
+            <input type="text" id="science" name="science" value="0"><br>
+            <label for ="math">Math:</label><br>
+            <input type="text" id="math" name="math" value="0"><br>
+            <label for="c">C:</label><br>
+            <input type="text" id="c" name="c" value="0"><br>
+            <label for ="datascience">Datascience:</label><br>
+            <input type="text" id="datascience" name="datascience" value="0"><br>
+            <input type="submit" value="submit">
+
+
+
+
+        </form>
+        <p> if you click "submit" button the form data will be sent to a page</p>
+
+
+
+
+
+
+
+    </body>
+
+
+
+
+</html>
